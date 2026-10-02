@@ -1,4 +1,9 @@
 {
+  "cluster.v2.device.ssh_user": "Ім’я користувача SSH",
+  "cluster.v2.device.ssh_user_help": "Укажіть коротке ім’я облікового запису на віддаленому комп’ютері. Залиште поле порожнім, щоб використати обліковий запис, зазначений під час підключення, або налаштування SSH.",
+  "cluster.v2.device.ssh_user_save": "Зберегти ім’я користувача SSH",
+  "cluster.v2.device.ssh_user_saved": "Ім’я користувача SSH збережено. Запустіть перевірки ще раз.",
+  "cluster.v2.device.ssh_user_error": "Не вдалося зберегти ім’я користувача SSH.",
   "app.title": "oMLX Admin",
   "app.tagline": "Запуск LLM, оптимізований для вашого Mac",
   "login.title_login": "Вхід — oMLX Admin",
@@ -157,6 +162,7 @@
   "status.active_models.last_token_ago": "останній токен {age} тому",
   "status.integrations.claude_code": "Claude Code",
   "status.integrations.copilot_cli": "Copilot CLI",
+  "status.integrations.dsh": "DeepSeek Harness",
   "status.integrations.hermes_agent": "Агент Hermes",
   "status.active_models.idle": "у режимі очікування",
   "status.active_models.pressure_label": "{current} / {soft} (м'який ліміт) / {hard} (жорсткий ліміт)",
